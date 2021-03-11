@@ -77,7 +77,7 @@ namespace TCP_ServerOpg5
 
         public override string ToString()
         {
-            return Id + " " + Name + " " + Price + " " + Abv;
+            return "Id: " + Id + " Name of the beer: " + Name + " Price: " + Price + "kr. Abv: " + Abv;
         }
     }
 }
